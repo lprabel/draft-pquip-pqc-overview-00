@@ -31,19 +31,11 @@ author:
     fullname: Lucas Prabel
     organization: Huawei
     email: lucas.prabel@huawei.com
- -  ins: S. Sun
-    fullname: Shuzhou Sun
-    organization: Huawei
-    email: sunshuzhou@huawei.com
- -  ins: G. Zeng
-    fullname: Guang Zeng
-    organization: Huawei
-    email: zengguang13@huawei.com
  -  ins: G. Wang
     fullname: Guilin Wang
     organization: Huawei
     email: wang.guilin@huawei.com
- -  ins: Y. Shah
+ - ins: Y. Shah
    fullname: Yug Shah
    organization: Qorsa
    email: yugscontact@gmail.com
@@ -177,7 +169,7 @@ This section is divided into two different subsections, one focused on Key Encap
 The "claimed security level" in each table refers to the NIST Post-Quantum Cryptography Evaluation Criteria. We summarize this classification in {{tab-security-level}} below. Additional details are available at {{ IR.8547 }}.
 
 | Security Category | Attack Type | Example |
-| ----------- | ----------- |
+| ----------- | ----------- | ----------- |
 | 1 | Key search on a block cipher with a 128-bit key  | AES-128 |
 | 2 | Collision search on a 256-bit hash function  | SHA-256 |
 | 3 | Key search on a block cipher with a 192-bit key | AES-192 |
@@ -246,7 +238,7 @@ The Classic McEliece specification is available at {{CLASSICMCELIECE.SPEC}}.
 
 | Scheme | Public Key | Private Key | Ciphertext | Shared Secret | Claimed Security Level |
 | ----------- | ----------- |  ----------- | ----------- | ----------- | ----------- |
-| Classic-McEliece-348864  | 261120	| 6492 | 96 | 32 | 1 |
+| Classic-McEliece-348864  | 261120 | 6492 | 96 | 32 | 1 |
 | Classic-McEliece-348864f  | 261120 | 6492 | 96 | 32 | 1 |
 | Classic-McEliece-460896  | 524160	| 13608 | 156 | 32 | 3 |
 | Classic-McEliece-460896f  | 524160 | 13608 | 156 | 32 | 3 |
@@ -527,3 +519,7 @@ Hash-based signature schemes such as SLH-DSA, LMS, and XMSS are believed to offe
 # IANA Considerations
 
 This document has no IANA action.
+
+# Acknowledgments
+
+We thank Sun Shuzhou and Zeng Guang for their valuable comments and recommendations on this document.
